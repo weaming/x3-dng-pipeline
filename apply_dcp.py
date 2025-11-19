@@ -388,6 +388,10 @@ def apply_fake_hdr_effect(linear_img, *, diffuse_nits=203, peak_nits=1000, thres
     # 使用 Rec.2020 的亮度系数
     luminance = 0.2627 * linear_img[:, :, 0] + 0.6780 * linear_img[:, :, 1] + 0.0593 * linear_img[:, :, 2]
 
+    if DEBUG:
+        print('最高亮度:', luminance.max())
+        print()
+
     # 3. 制作高光遮罩 (Mask)
     # 只有亮度超过 threshold 的地方才会被额外提亮
     # 使用平滑过渡 (Smoothstep) 避免出现明显的亮度断层
