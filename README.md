@@ -14,9 +14,9 @@ options:
   -h, --help            show this help message and exit
   -i, --dng DNG         输入 DNG 文件或目录路径
   --xml XML             输入 DCP XML 配置文件路径
-  --output OUTPUT       输出 JPG 文件路径（目录时自动生成）
+  --output OUTPUT       输出 JPG 文件路径
   -o, --hdr-output HDR_OUTPUT
-                        输出 HDR HEIF 文件路径（目录时自动生成）
+                        输出 HDR HEIF 文件路径
   -q, --quality QUALITY
                         JPG 输出质量 (0-100)
   --max-nits MAX_NITS   HDR 峰值亮度（尼特）
