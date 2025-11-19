@@ -529,13 +529,13 @@ def main():
   - 已应用白平衡增益
 
   脚本会读取 DNG 的线性 sRGB 数据，
-  应用 DCP 中的色彩风格（HueSatDeltas LUT 和 Tone Curve），
+  应用 DCP 中的校色数据（HueSatDeltas LUT 和 Tone Curve），
   然后应用 sRGB Gamma 校正输出 JPEG，
   或者转化为 BT2020+PQ 输出 HEIF。
 
   --dng 参数支持文件或目录：
-  - 文件：处理单个 DNG 文件
-  - 目录：处理目录下所有 DNG 文件（仅一级）
+    文件：处理单个 DNG 文件
+    目录：处理目录下所有 DNG 文件（仅一级）
 """,
     )
     parser.add_argument('-i', '--dng', type=str, help='输入 DNG 文件或目录路径')
