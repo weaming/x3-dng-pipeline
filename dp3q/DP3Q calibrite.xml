@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcpData>
+  <ProfileName>DP3Q calibrite</ProfileName>
+  <CalibrationIlluminant1>21</CalibrationIlluminant1>
+  <CalibrationIlluminant2>0</CalibrationIlluminant2>
+  <ColorMatrix1 Rows="3" Cols="3">
+    <Element Row="2" Col="2">0.994300</Element>
+    <Element Row="2" Col="1">-0.010400</Element>
+    <Element Row="2" Col="0">-0.083300</Element>
+    <Element Row="1" Col="2">0.232900</Element>
+    <Element Row="1" Col="1">1.487800</Element>
+    <Element Row="1" Col="0">-0.759800</Element>
+    <Element Row="0" Col="2">-0.379300</Element>
+    <Element Row="0" Col="1">-1.075500</Element>
+    <Element Row="0" Col="0">2.476800</Element>
+  </ColorMatrix1>
+  <ColorMatrix2 Rows="0" Cols="0"/>
+  <ForwardMatrix1 Rows="0" Cols="0"/>
+  <ForwardMatrix2 Rows="0" Cols="0"/>
+  <ReductionMatrix1 Rows="0" Cols="0"/>
+  <ReductionMatrix2 Rows="0" Cols="0"/>
+  <EmbedPolicy>0</EmbedPolicy>
+  <ProfileHueSatMapEncoding>0</ProfileHueSatMapEncoding>
+  <UniqueCameraModelRestriction>Digital Negative</UniqueCameraModelRestriction>
+  <ProfileLookTableEncoding>0</ProfileLookTableEncoding>
+  <BaselineExposureOffset>0.000000</BaselineExposureOffset>
+  <DefaultBlackRender>0</DefaultBlackRender>
+</dcpData>
