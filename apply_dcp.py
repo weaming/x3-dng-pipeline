@@ -548,6 +548,10 @@ def main():
 
     args = parser.parse_args()
 
+    if not args.dng:
+        print('missing the -i / --dng param')
+        sys.exit(1)
+
     parent_dir = Path(__file__).parent
     try:
         xml_path = args.xml
